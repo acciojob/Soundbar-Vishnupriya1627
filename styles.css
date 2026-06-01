@@ -1,1 +1,34 @@
 /*  your css code here. If applicable */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:#A164DF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soundbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn,.stop{
+    width: 90px;
+    height: 40px;
+    background-color: #663399;
+    color: white;
+    border: none;
+    margin:10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
